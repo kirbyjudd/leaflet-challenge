@@ -10,7 +10,7 @@ For this leaflet challenge I utilized the openstreetmap.org tile for my tile lay
 
 I then used the D3 JS library to perform a get request to the query URL to retrieve the: lattude, longitude, depth, magnitude, and location of the most recent weeks earthquakes.
 
-I created a function called 'depthColor' that used if conditionals to return a specific color. 
+I created a function called 'depthColor' that used if-conditionals to return a specific color. 
 - 90+ return red
 - 50-70 return orange
 - 30-50 return yellow
@@ -19,9 +19,9 @@ I created a function called 'depthColor' that used if conditionals to return a s
 
 I then created a circle marker that took in the latitude and longitude, set the fill color the the depthColor function, and se the radius to the magnitude valueus * 20000.
 
-AFter adding the circle marker to myMap I attached a bindPopup that displayed the Magnitude, location and depth of the earthquake.
+After adding the circle marker to myMap I attached a bindPopup that displayed the Magnitude, location and depth of the earthquake.
 
-Lastly I added a legend to myMap that displays the depth limits and its corresponding circle color.
+Lastly, I added a legend to myMap that displays the depth limits and its corresponding circle color.
 
 ## Peer Cooperation
 I worked together on this assignment with my classmate Riddhi Sodagar.
