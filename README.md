@@ -21,7 +21,7 @@ I then created a circle marker that took in the latitude and longitude, set the 
 
 After adding the circle marker to myMap I attached a bindPopup that displayed the Magnitude, location and depth of the earthquake.
 
-Lastly, I added a legend to myMap that displays the depth limits and its corresponding circle color.
+Lastly, I added a legend to myMap that displays the depth limits and its corresponding circle color. I also had to make sure to update the css styling for the legend.
 
 ## Peer Cooperation
 I worked together on this assignment with my classmate Riddhi Sodagar.
